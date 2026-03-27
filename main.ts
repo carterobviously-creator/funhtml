@@ -40,7 +40,6 @@ function more_things () {
         . 3 . . . . . . . . . . . . 3 . 
         3 . . . . . . . . . . . . . . 3 
         `, SpriteKind.Player)
-    music.play(music.createSong(assets.song`mySong`), music.PlaybackMode.UntilDone)
 }
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     for (let index = 0; index < randint(0, randint(0, 10)); index++) {
